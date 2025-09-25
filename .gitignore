@@ -3,6 +3,10 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
-./include/secrets.h
+
+# Secrets file - contains sensitive information
+include/secrets.h
+
+# Wokwi files - simulation specific
 diagram.json
 wokwi.toml
